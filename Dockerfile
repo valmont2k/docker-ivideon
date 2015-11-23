@@ -4,8 +4,6 @@
 ############################################################
 FROM ubuntu:12.04
 MAINTAINER Nick Heinemans (nick@hostlogic.nl)
-#ENV http_proxy http://172.17.42.1:3128
-#ENV https_proxy http://172.17.42.1:3128
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
 && apt-get -y install wget apt-utils psmisc \
