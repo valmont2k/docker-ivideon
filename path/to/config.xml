@@ -1,0 +1,9 @@
+<!-- Demo configuration file -->
+<videoserver-config>
+  <proxy host="proxy.ivideon.com" port="443" />
+  <general uin="" password="" email="" serverName="" useHttpProxy="false" httpProxyUrl="" logFile="" localView="true" localProxyPort="" localStreamerPort="8080" localPassword="123456" passwordReset="True" />
+  <archive path="/video_archive" sizeLimit="0" sizeToCleanup="0" units="M" continuous="false"/>
+  <cameras last_id="1">
+  <camera video_url_username="" name="rvi-ipc11" video_url_port="" url="rtsp://172.17.2.127:554/video.h264" model="" video_url_password="" id="1" video_url_host="" manufacturer=""/>
+  </cameras>
+</videoserver-config>
